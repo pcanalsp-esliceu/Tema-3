@@ -1,12 +1,11 @@
 const compra = ['pa', 'llet', 'ous'];
 
-function conte (igual) {
-   
-    if (compra === igual){
-        return true
-    }else{
-        return false
+function conte (compra,igual) {
+    for(let i = 0; i < compra.length; i++) {
+        if (compra[i] === igual)
+            return true
     }
+    return false
 }
 
 console.log(conte(compra, 'llet'));
