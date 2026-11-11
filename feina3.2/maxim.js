@@ -1,20 +1,11 @@
-// let llista = 0
-
-function maxim (llista) {
-    //loop
-    // ordenar
-    //elejir ultimo numero
-    // if ( llista < maxim[0] ){
-    //     llista = maxim
-    // }
-    // return maxim
-    for (let i = 0; i < llista.length; i++){
-        if (llista[i] <  ) {
-            
-            return 
+function maxim (llista){
+    let maxim=llista[0]
+    for (const n of llista){
+        if(n>maxim){
+            maxim=n
         }
     }
-
+    return maxim
 }
 
 console.log(maxim([3, 9, 2]));

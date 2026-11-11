@@ -7,11 +7,6 @@ function quantsMesGrans (numeros) {
     return numeros
 }
 
-
-
-
-
-
 console.log(quantsMesGrans(numeros, 10));
 console.log(quantsMesGrans(numeros, 50));
 console.log(quantsMesGrans(numeros, 0));
